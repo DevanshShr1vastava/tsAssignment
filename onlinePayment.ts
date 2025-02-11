@@ -6,11 +6,11 @@ abstract class Payment{
         this.date = date;
     }
 
-    isAuth?(cred1:number,passkey:number){}
+    isAuth(cred1:number,passkey:number){}
 
-    deposit?(auth:boolean):void{}
+    deposit(auth:boolean):void{}
 
-    withdraw?(auth:boolean):void{}
+    withdraw(auth:boolean):void{}
 }
 
 class CreditCardPayment extends Payment{
