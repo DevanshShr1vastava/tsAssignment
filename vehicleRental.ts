@@ -57,7 +57,12 @@ const bike1 = new Bike('Suzuki','Crescent',130,'sports');
 const truck1 = new Truck('Mercedeze','750TWS',670,true);
 
 console.log(vehicle1);
+console.log("--------------------------------");
 console.log(car1);
 console.log(car1.calculateRentalCost(43));
+console.log("--------------------------------");
+console.log(bike1);
 console.log(bike1.calculateRentalCost(23));
+console.log("--------------------------------");
+console.log(truck1);
 console.log(truck1.calculateRentalCost(67));
